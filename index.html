@@ -1,14 +1,59 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
-<html lang="sr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>I'M COFI</title>
-  </head>
-  <body>
-	<h1>Zdravo, ljudi!</h1>
-	<p>Ovo je moj sajt.</p>
-	<a href="https://google.com"</a>	
+    <title>Simkela - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#home" class="nav-link" data-page="home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+            <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home" class="page active">
+            <h1>Welcome to Simkela's Portfolio</h1>
+            <p>Discover my journey in coding!</p>
+        </section>
+        
+        <section id="about" class="page">
+            <h2>About Me</h2>
+            <p>Hello! I'm Simkela, a beginner in Pawn scripting and Python development.</p>
+            <div class="skills-container">
+                <div class="skill-box">
+                    <img src="pawn.png" alt="Pawn Logo">
+                    <h3>Pawn</h3>
+                    <p>Beginner - 1 Year Experience</p>
+                </div>
+                <div class="skill-box">
+                    <img src="python.png" alt="Python Logo">
+                    <h3>Python</h3>
+                    <p>Beginner - 1 Month Experience</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="projects" class="page">
+            <h2>Projects</h2>
+            <p>Currently exploring Pawn scripting and experimenting with Python projects.</p>
+        </section>
+        
+        <section id="contact" class="page">
+            <h2>Contact</h2>
+            <p>Email: dficod@gmail.com</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Simkela. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
